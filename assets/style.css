@@ -33,7 +33,7 @@ p{
 /* CONTAINER_Header  */
 
 .header{
-    background-image: url(../images/header.jpg);
+    background-image: url(img/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 530px;
@@ -268,21 +268,21 @@ li{
 }
 
 .cover_1{
-    background: url(../images/cover-1.jpg) no-repeat center center / cover;
-    /* background-image: url(/assets/images/cover-1.jpg);
+    background: url(img/cover-1.jpg) no-repeat center center / cover;
+    /* background-image: url(/assets/img/cover-1.jpg);
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
     background-size: cover; */
 }
 .cover_2{
-    background: url(../images/cover-2.jpg) no-repeat center center / cover;
+    background: url(img/cover-2.jpg) no-repeat center center / cover;
 }
 .cover_3{
-    background: url(../images/cover-3.jpg) no-repeat center center / cover;
+    background: url(img/cover-3.jpg) no-repeat center center / cover;
 }
 .cover_4{
-    background: url(../images/cover-4.jpg) no-repeat center center / cover;
+    background: url(img/cover-4.jpg) no-repeat center center / cover;
 }
 
 /* ========================= */
@@ -318,7 +318,7 @@ li{
 /* ================================ */
 
 .live_sports{
-    background: url(../images/live-sports.jpg) no-repeat center center / cover;
+    background: url(img/live-sports.jpg) no-repeat center center / cover;
     height: 800px;
     position: relative;
 }
@@ -339,7 +339,7 @@ li{
 }
 
 .live_sports_logos > div{
-    background: url(../images/network-logo-bg.png) no-repeat center center / cover;
+    background: url(img/network-logo-bg.png) no-repeat center center / cover;
     height: 60px;
     width: 60px;
     display: flex;
@@ -393,4 +393,9 @@ footer a{
     width: 25px;
     height: 25px;
     margin-right: 25px;
+}
+
+.copy{
+    margin-top: 100px;
+    text-align:  center;
 }
